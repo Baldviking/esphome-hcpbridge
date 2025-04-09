@@ -15,11 +15,11 @@
 
 #define RS485 Serial2
 #ifdef CONFIG_IDF_TARGET_ESP32S3
-#define PIN_TXD 17
-#define PIN_RXD 18
+#define PIN_TXD 21
+#define PIN_RXD 20
 #else
-#define PIN_TXD 17 // UART 2 TXT - G17
-#define PIN_RXD 16 // UART 2 RXD - G16 
+#define PIN_TXD 21 // UART 2 TXT - G17
+#define PIN_RXD 20 // UART 2 RXD - G16 
 #endif
 
 static const char *TAG_HCI = "HCI-BUS";
