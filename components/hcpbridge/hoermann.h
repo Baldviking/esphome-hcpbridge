@@ -13,7 +13,7 @@
 #define SIMULATEKEYPRESSDELAYMS 100
 #define DEADREPORTTIMEOUT 60000
 
-#define RS485 Serial1.              // Changed to Serial0.  Serial1 uses pin 3 and 4 on ESP32 C3
+#define RS485 Serial0              // Changed to Serial0.  Serial1 uses pin 3 and 4 on ESP32 C3
 #ifdef CONFIG_IDF_TARGET_ESP32S3
 #define PIN_TXD 21                  // D6 or GPIO21 on ESP32 C3
 #define PIN_RXD 20                  // D7 or GPIO20 on ESP32 C3
